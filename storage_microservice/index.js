@@ -6,7 +6,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors());
-const port = 3001;
+const port = process.env.PORT || 8080;
 
 // Connect to MongoDB using your provided connection string
 try {
