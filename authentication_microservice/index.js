@@ -8,7 +8,8 @@ const { default: mongoose } = require("mongoose");
 require("dotenv").config();
 
 const app = express();
-const port = 3003;
+// const port = 3003;
+const port = process.env.PORT || 8080;
 
 // Middleware to parse JSON in requests
 app.use(express.json());
