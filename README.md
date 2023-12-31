@@ -48,13 +48,14 @@ The microservices architecture promotes a modular and scalable design:
 ![](images/5_image_upload_page.png)
 
 ## Load testing cases
-Tests invoked on frontend microservice
+Tests invoked on frontend microservice:
+
 ### 100 users, 2 sec ramp-up period, 10 iterations
-Throughput increased without any failure
+Throughput increased without any failure, as depicted here:
 ![image](https://github.com/tayyibgondal/Project_Photon/assets/58441901/5ae25c77-6df6-4902-a460-038204fc5531)
 
 ### 500 users, 2 sec ramp-up period, 50 iterations
-25k requests were successfully served. Throughput 21.7/s, Spike was measured on gcp
+25k requests were successfully served. Throughput 21.7/s, Spike was measured on GCP.
 ![image](https://github.com/tayyibgondal/Project_Photon/assets/58441901/68b80152-c1b5-45d8-a5f2-5fecf7131f1b)
 
 
