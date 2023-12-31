@@ -37,8 +37,7 @@ The microservices architecture promotes a modular and scalable design:
 ![](images/2_gallery_b.jpg)
 
 ### User photos page
-
-![](images/3_my_photos_page.png)
+![myphoto](https://github.com/tayyibgondal/Project_Photon/assets/58441901/e81b89c0-c4d8-4859-856d-5272fbf5c716)
 
 ### User activity page
 
@@ -47,5 +46,21 @@ The microservices architecture promotes a modular and scalable design:
 ### Upload images page
 
 ![](images/5_image_upload_page.png)
+
+## Load testing cases
+Tests invoked on frontend microservice
+### 100 users, 2 sec ramp-up period, 10 iterations
+Throughput increased without any failure
+![image](https://github.com/tayyibgondal/Project_Photon/assets/58441901/5ae25c77-6df6-4902-a460-038204fc5531)
+
+### 500 users, 2 sec ramp-up period, 50 iterations
+25k requests were successfully served. Throughput 21.7/s, Spike was measured on gcp
+![image](https://github.com/tayyibgondal/Project_Photon/assets/58441901/68b80152-c1b5-45d8-a5f2-5fecf7131f1b)
+
+
+### 500 users, 2 sec ramp-up period, 100 iterations
+~50k requests were 100% served. Throughput 29.3/s
+![image](https://github.com/tayyibgondal/Project_Photon/assets/58441901/5f05145e-f6e3-4633-81e7-69e4ea289d3c)
+
 
 
