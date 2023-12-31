@@ -19,6 +19,11 @@ The microservices architecture promotes a modular and scalable design:
 - **Client (React.js):** Provides the user interface.
 - **Other Microservices (Node.js):** Includes services for user authentication, user activity monitoring, and storage monitoring.
 
+## Architectural Diagram
+
+![image](https://github.com/tayyibgondal/Project_Photon/assets/99114574/b2e359e3-b762-4604-9338-88d6054b107c)
+
+
 ## Application
 
 ### Landing page
