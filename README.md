@@ -61,7 +61,7 @@ Throughput increased without any failure, as depicted here:
 
 
 ### 500 users, 2 sec ramp-up period, 100 iterations
-Approximately 50k requests were 100% served. Throughput 29.3/s
+Approximately 50k requests were 100% served. Throughput 29.3/s.
 
 ![image](https://github.com/tayyibgondal/Project_Photon/assets/58441901/5f05145e-f6e3-4633-81e7-69e4ea289d3c)
 
