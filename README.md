@@ -42,3 +42,5 @@ The microservices architecture promotes a modular and scalable design:
 ### Upload images page
 
 ![](images/5_image_upload_page.png)
+
+
